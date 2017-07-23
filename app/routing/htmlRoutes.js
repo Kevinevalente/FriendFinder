@@ -1,15 +1,15 @@
-// =============================================================
-// ROUTES
-// =============================================================
+// var path = require('path');
 
-// // basic route to home page (home.html) (GET)
-// app.get("/", function(req, res) {
-//   res.sendFile(path.join(__dirname, "home.html"));
-// });
+// module.exports = function(app) {
+	
+// 	app.use( function(req, res) {
+// 	  res.sendFile(path.join(__dirname, "/public/home.html"));
+// 	});
 
-// // route to view survey (survey.html) (GET)
-// app.get("/survey", function(req, res) {
-//   res.sendFile(path.join(__dirname, "survey.html"));
-// });
+// 	app.get('/survey', function(req, res) {
+// 		res.sendFile(path.join(__dirname + '/public/survey.html'))
+// 	});
+
+// };
 
 

@@ -188,6 +188,30 @@
 <!--_______________________________________________________________________________________________-->
 <!-- Closing Div -->
     </div>
+
+<script type="text/javascript">
+    // capture user survey inputs 
+    $("#submit").on("click", function(){
+        
+        let results = []
+
+        for (var i = 0, i < 11, i++) {
+            let target = "#q" +i;
+            let val = $(target).val()
+        }
+
+        results.push(val);    
+        
+    })
+
+    var newObject = {
+        name: $("#name").val()
+        photo: $("#photo").val()
+        results = results
+    }
+
+    //Jquery post request
+</script>
 </body>
 
 </html>
